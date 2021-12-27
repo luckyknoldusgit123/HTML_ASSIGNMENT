@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-US" style="height: 100%;">
+<head>
+    <meta charset="UTF-8" name="HTML-Assignment" content = "Webpage" >
+    <title>HTML Assignment</title>
+    <style>
+
+        ol a:link {
+            color: blue;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        ol a:visited {
+            color: purple;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        ol a:hover {
+		    color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+		ol.a:active {
+		    color: yellow;
+			background-color: transparent;
+			text-decoration: underline;
+		}
+	.center {
+	  display: block;
+  	  margin-left: auto;
+  	  margin-right: auto;
+  	  width: 50%;
+	  height: 60%;
+	}
+    </style>
+    <script>
+        function clearContents(element) {
+            element.value = '';
+        }
+    </script>
+
+</head>
+
+<body style="position: relative; margin-left: 0em; margin-right: 0em; margin-bottom: 0em">
+
+<div class="inline" style="display: inline">
+<table>
+<tr>
+<td>	
+    <span class = "inline">
+         <img src ="https://upload.wikimedia.org/wikipedia/commons/3/3e/W3Schools_logo.png" style="width: 300px; height:50px">
+    </span>
+</td>
+<td>
+    <span class="inline" id="highlight" style="margin-left: 3em; ;alignment:right;font-family:'Segoe UI',Arial,sans-serif;">
+    THE WORLD'S LARGEST WEB DEVELOPER SITE
+    </span>
+</td>
+</tr>
+</table>
+</div>
+
+
+<div class="ref-links" style="height: 40px; border-color: #4CAF50; background-color: rgb(145, 18, 18); margin-top: 10px;overflow:auto; padding-top: 15px;font-size: large;">
+    <a class="ref-1" href="https://www.w3schools.com/html/default.asp" style="color: white;margin-left: 2em; text-decoration: none;" title="HTML Tutorial">HTML</a>
+    <a class="ref-2" href="https://www.w3schools.com/css/default.asp" style="color: white; margin-left: 18em; text-decoration: none;" title="CSS Tutorial">CSS</a>
+    <a class="ref-3" href="https://www.w3schools.com/js/default.asp" style="color: white; margin-left: 18em; text-decoration: none;" title="JavaScript Tutorial">JAVASCRIPT</a>
+    <a class="ref-4" href="https://www.w3schools.com/python/default.asp" style="color: white; margin-left: 18em; text-decoration: none;" title="Python Tutorial">PYTHON</a>
+</div>
+ 
+
+<div style="margin-left: 2em">
+    <div>
+        <h1>HTML Introduction</h1>
+        <p>HTML is a standard markup language of creating Web pages.</p>
+        <span>
+        <ol>
+            <li><a href="#intro">What is HTML.</a></li>
+            <li><a href="#elementsofhtml">What is HTML element. </a></li>
+            <li><a href="#webbrowser">Web browsers</a></li>
+            <li><a href="#webbrowser">Web browsers</a></li>
+        </ol>
+    </span>
+    </div>
+    <div id="intro">
+        <h2>What is HTML?</h2>
+        <ul>
+            <li>HTML stands for Hyper Text Markup Language.</li>
+            <li>HTML is the standard markup language for creating Web pages.</li>
+            <li>HTML describes the structure of a Web page.</li>
+            <li>HTML consists of a series of elements.</li>
+            <li>HTML elements tell the browser how to display the content.</li>
+            <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+        </ul>
+    </div>
+    <div id="elementsofhtml">
+        <h2>What is an HTML Element?</h2>
+        <p>An HTML element is defined by a start tag, some content, and an end tag:</p>
+        <div style="font-size: x-large">
+            <span style="color:brown"><span style="color:mediumblue">&lt;</span>tagname<span style="color:mediumblue">&gt;</span></span>
+            Content goes here...
+            <span style="color:brown"><span style="color:mediumblue">&lt;</span>/tagname<span style="color:mediumblue">&gt;</span></span> <br>
+            <p style="font-size: medium">The HTML element is everything from the start tag to the end tag:</p>
+            <span style="color:brown"><span style="color:mediumblue">&lt;<span style="color:brown">h1</span>&gt;</span></span>
+            My First Heading
+            <span style="color:brown"><span style="color:mediumblue">&lt;</span>/h1<span style="color:mediumblue">&gt;</span></span> <br><br>
+            <span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>
+            My first pragraph
+            <span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span><br><br>
+        </div>
+        <table class="table" style="display: -moz-inline-box;border: 1px solid #767474; border-collapse: collapse;">
+            <tbody><tr style="height: 30px; border-collapse: collapse" >
+                <th>Start tag</th>
+                <th>Element content</th>
+                <th>End tag</th>
+            </tr>
+            <tr style="height: 30px; border-color: black; background-color: #d9d2d2 ;">
+                <td style="padding:0 16em;">&lt;h1&gt;</td>
+                <td style="padding:0 16em">My First Heading.</td>
+                <td style="padding:0 16em">&lt;/h1&gt;</td>
+            </tr>
+            <tr style="height: 30px; margin-top: 10px;">
+                <td style="padding:0 16em;">&lt;p&gt;</td>
+                <td style="padding:0 16em">My first paragraph.</td>
+                <td style="padding:0 16em">&lt;/p&gt;</td>
+            </tr>
+            <tr style="height: 30px; border-color: #d9d2d2; background-color: #d9d2d2;">
+                <td style="padding:0 16em;">&lt;br&gt;</td>
+                <td style="padding:0 16em"><em>none</em></td>
+                <td style="padding:0 16em"><em>none</em></td>
+            </tr>
+            </tbody></table>
+
+    </div>
+    <div id="webbrowser">
+        <h2>Web Browsers</h2>
+        
+        <p>The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.<br><br>
+            A browser does not display the HTML tags, but uses them to determine how to display the document:</p>
+        <p><img  class="center" alt="View in Browser" align= "centre" src="https://www.w3schools.com/html/img_chrome.png"/></p>
+    </div>
+    <div>
+        <h2> Submit a Review</h2>
+        <form id="review-form" action="https://st2.depositphotos.com/3489481/6283/i/600/depositphotos_62831113-stock-photo-businesswoman-hands-holding-card-with.jpg" method="get">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="Enter Full Name">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating">
+			    <option value="select">--Select--</option>
+                <option value="very good">Very Good</option>
+                <option value="good">Good</option>
+                <option value="neither good not bad">Average</option>
+		        <option value= "bad">Poor</option>
+		        <option value="very bad">Very Poor</option>
+            </select><br><br>
+
+            <textarea onfocus="clearContents(this);" style="width:600px; height:300px;">Please add a review.</textarea><br><br>
+
+            <input type="Submit"><br><br>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
